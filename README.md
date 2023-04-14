@@ -41,25 +41,25 @@ Graph autoencoder-kmeans
 ### K-Means Clustering
 The K-Means clustering algorithm is used to cluster the vehicles in the HighD dataset. The algorithm partitions the nodes into K clusters based on the similarity of their features. The number of clusters K is chosen based on an elbow method, where the optimal K value is chosen based on the point where the decrease in the sum of squared distances between the data points and their cluster centroids starts to level off.
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/graphs/kmeans_output.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/kmeans_output.png)
 
 ### Spectral Clustering
 The Spectral Clustering algorithm is used to cluster the vehicles in the HighD dataset. The algorithm uses the graph constructed earlier to create a Laplacian matrix, which is then used to perform eigenvalue decomposition. The resulting eigenvectors are used to project the nodes into a lower-dimensional space, where they can be clustered using K-Means clustering.
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/graphs/spectral_output.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/spectral_output.png)
 
 ### GraphSage convolution
 The GCN - Sage Convolution algorithm is used to cluster the vehicles in the HighD dataset. The algorithm is a Graph Convolutional Network (GCN) that uses the graph constructed earlier as input. The GCN applies a series of graph convolution layers to the graph, where each layer aggregates information from the node's neighbors and updates the node's feature representation. The final node representations are then clustered using K-Means clustering.
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/graphs/graphsage_output.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/graphsage_output.png)
 
 
 ### Graph Autoencoder and K-Means Clustering
 We built a graph dataset using the PyTorch library. This data variable has features and edge indexes that are crucial for us to separate the testing and training sub-nodes. We have converted node features and edges to PyTorch tensors. We have defined our encoder and applied kmeans on the embedding output in the latent space.
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/graphs/GAE&kmeans_output#1.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/GAE&kmeans_output#1.png)
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/graphs/GAE&kmeans_output.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/GAE&kmeans_output.png)
 
 ## Conclusion
 This project demonstrates the use of four different clustering algorithms to cluster the vehicles in the HighD dataset. By comparing the results of each algorithm, we can gain insights into the strengths and weaknesses of each method and choose the most suitable one for the task at hand. The combination of graph construction, feature extraction, and graph convolutional network is a powerful technique for clustering data points, especially in the case of high-dimensional data like the vehicle features in the HighD dataset.
