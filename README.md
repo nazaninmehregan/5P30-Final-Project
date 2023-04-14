@@ -29,7 +29,7 @@ To connect the neighbors, the x and y positions are used to determine which node
 
 Next, random weights are assigned to the edges between 1 and 5 which shows whether the cars are moving in one path or not. This graph with nodes and their features, edges and their weights forms the basis for the clustering algorithms.
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/graphs/graph_construction.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/graph_construction.png)
 
 ## Clustering Algorithms
 Three different clustering algorithms are used in this project:
