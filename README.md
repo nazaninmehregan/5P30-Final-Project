@@ -57,7 +57,7 @@ The GCN - Sage Convolution algorithm is used to cluster the vehicles in the High
 ### Graph Autoencoder and K-Means Clustering
 We built a graph dataset using the PyTorch library. This data variable has features and edge indexes that are crucial for us to separate the testing and training sub-nodes. We have converted node features and edges to PyTorch tensors. We have defined our encoder and applied kmeans on the embedding output in the latent space.
 
-![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/GAE&kmeans_output#1.png)
+![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/GAE&kmeans_output1.png)
 
 ![alt text](https://github.com/nazaninmehregan/5P30-Final-Project/blob/master/Graphs/GAE&kmeans_output.png)
 
